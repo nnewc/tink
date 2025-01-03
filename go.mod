@@ -4,6 +4,8 @@ go 1.22.0
 
 toolchain go1.22.2
 
+replace github.com/tinkerbell/rufio => github.com/nnewc/rufio main
+
 require (
 	github.com/Masterminds/sprig/v3 v3.3.0
 	github.com/avast/retry-go v3.0.0+incompatible
